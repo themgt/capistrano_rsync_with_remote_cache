@@ -24,7 +24,7 @@ module Capistrano
         default_attribute :repository_cache, 'cached-copy'
 
         def deploy!
-          update_local_cache
+          #update_local_cache
           update_remote_cache
           copy_remote_cache
         end
